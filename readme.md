@@ -1,1 +1,1 @@
-hola parte 1 del laboratorio
+Laboratorio React JS
