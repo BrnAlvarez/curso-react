@@ -1,18 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Saludo from './Components/Saludo'
+// import logo from './logo.svg'
+import './App.css'
+// import Saludo from './Components/Saludo'
+// import Formulario from './Components/Formulario'
+// import Traductor from './Components/Traductor'
+import Calculadora from './Components/Calculadora'
 
 function App() {
+
+  
+
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola 
-          <Saludo nombres={'Brian'} apellidos={'Alvarez'} />
-
-          
-        </p>
+        <Saludo nombres={'Brian'} apellidos={'Alvarez'} />
+        <Formulario></Formulario>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -21,9 +23,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      {/* <Traductor /> */}
+      <Calculadora />
     </div>
-  );
+  )
 }
 
 export default App;
