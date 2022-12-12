@@ -5,7 +5,10 @@ import './App.css'
 // import Traductor from './Components/Traductor'
 // import Calculadora from './Components/Calculadora'
 // import Dog from './Components/Dog'
-import Productos from './Components/Productos'
+// import Productos from './Components/Productos'
+import FormularioPais from './Components/FormularioPais'
+
+
 
 function App() {
 
@@ -30,8 +33,9 @@ function App() {
       {/* <Calculadora /> */}
       {/* <Traductor2 /> */}
       {/* <Dog /> */}
-      <Productos />
-    </div>
+      {/* <Productos /> */}
+      <FormularioPais />
+      </div>
   )
 }
 

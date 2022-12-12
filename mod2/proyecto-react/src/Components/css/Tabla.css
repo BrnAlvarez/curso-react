@@ -1,0 +1,7 @@
+table{
+    border:1px solid black;
+    display: flex;
+}
+table thead {
+    flex-direction: row;
+}

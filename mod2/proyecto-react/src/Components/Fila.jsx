@@ -1,10 +1,14 @@
-const Fila = ({title,brand,category,thumbnail}) => {
+import './css/Fila.css'
+const Fila = ({id,title,brand,category,thumbnail}) => {
+
     return (
         <div>
-            <td>{title}</td>
-            <td>{brand}</td>
-            <td>{category}</td>
-            <td><img src={thumbnail}/></td>
+            <tr key={id}>
+                <td>{title}</td>
+                <td>{brand}</td>
+                <td>{category}</td>
+                <td><img alt={title} src={thumbnail} className="image"/></td>
+            </tr>
         </div>
     )
 }

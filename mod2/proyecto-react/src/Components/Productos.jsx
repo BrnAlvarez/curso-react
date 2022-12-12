@@ -1,5 +1,6 @@
 import { useEffect,useState } from "react"
 import Fila from "./Fila"
+import './css/Tabla.css'
 const Productos = () => {
     const [productos, setProductos] = useState([])
     
@@ -27,11 +28,10 @@ const Productos = () => {
                 </thead>
                 <tbody>
                     {   
+                    //Map retona valores a diferencia de for foreEach u otro
                         productos.map((producto) => {
                             return(
-                                <tr key={producto.id}>
-                                    <Fila title={producto.title} brand={producto.brand} category={producto.cateogry} thumbnail={producto.thumbnail} />
-                                </tr>
+                                <Fila id={producto.id} title={producto.title} brand={producto.brand} category={producto.cateogry} thumbnail={producto.thumbnail} />
                             )
                         })
                     }
