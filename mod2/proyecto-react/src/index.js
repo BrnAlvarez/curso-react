@@ -5,26 +5,26 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from './pages/Home';
 import About from './pages/About';
-
+import ErrorNotFound from './pages/ErrorNotFound'
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorNotFound />
   },
   {
     path: "/about",
     element: <About />,
+    errorElement: <ErrorNotFound />
   },
   {
     path: "/home",
     element: <Home />,
+    errorElement: <ErrorNotFound />
   },
 ]);
 
