@@ -1,26 +1,24 @@
-
-import Navigator from './Navigator'
 import { useEffect } from 'react'
-import {useDispatch } from 'react-redux'
+import Navigator from './Navigator'
+import { useDispatch } from 'react-redux'
 import { setSaveInformation } from '../redux/actions'
+const Information = () => {
 
-    
-
-const Login = () => {
     const dispatch = useDispatch()
     
     useEffect(() => {
         //uso de las configuraciones de redux, depues de los realizado en index.js
-        dispatch(setSaveInformation("Presionamos login"))
+        dispatch(setSaveInformation("Realizando modulo 3"))
 // eslint-disable-next-line
     }, [])
+
 
     return (
         <div>
             <Navigator />
-            Login
+            Seteando informacion
         </div>
     )
 }
 
-export default Login
+export default Information

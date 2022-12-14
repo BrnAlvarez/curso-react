@@ -17,6 +17,9 @@ const Navigator = () => {
                     </Link> 
                     <Link to="/about">
                         <Button variant="contained">About</Button>
+                    </Link>
+                    <Link to="/information">
+                        <Button variant="contained">Information</Button>
                     </Link> 
                     <Link to="/login">
                         <Button variant="contained">Login</Button>
