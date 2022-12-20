@@ -23,7 +23,10 @@ const Navigator = () => {
                     </Link> 
                     <Link to="/login">
                         <Button variant="contained">Login</Button>
-                    </Link> 
+                    </Link>
+                    <Link to="/clients">
+                        <Button variant="contained">Clients</Button>
+                    </Link>  
                 </Toolbar>
             </AppBar>
         </div>

@@ -17,7 +17,7 @@ const Home = () => {
         <div>
             <Navigator />
             Home
-            Hola {}
+            Hola 
         </div>
     )
 }
