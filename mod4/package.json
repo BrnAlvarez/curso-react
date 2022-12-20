@@ -1,0 +1,27 @@
+{
+  "name": "stack_mern",
+  "version": "1.0.0",
+  "description": "Módulo 4 - Manejo de NodeJS,Mongo,Express y React",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "activate-test": "node script.js",
+    "server": "node ./node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "react",
+    "mongo",
+    "express"
+  ],
+  "author": "Brian Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongo": "^0.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
